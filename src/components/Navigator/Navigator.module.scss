@@ -1,0 +1,18 @@
+.navigatorLink {
+  background-color: brown;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.navigatorLink:hover {
+  background-color: blue;
+}
+
+.navigator {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15px;
+}
