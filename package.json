@@ -7,8 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "prepare": "husky",
-    "preinstall": "npm install --legacy-peer-deps || true"
+    "prepare": "husky"
   },
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^6.21.0",
