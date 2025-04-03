@@ -8,18 +8,9 @@ module.exports = {
     ecmaVersion: "latest",
   },
   plugins: ["react", "@typescript-eslint", "prettier"],
-  extends: [
-    "airbnb-typescript/base",
-    "next/core-web-vitals",
-    "plugin:prettier/recommended",
-  ],
+  extends: ["next/core-web-vitals", "plugin:prettier/recommended"],
   rules: {
     quotes: ["error", "double"],
   },
   ignorePatterns: ["node_modules/", "dist/", ".next/"],
-  settings: {
-    react: {
-      version: "detect",
-    },
-  },
 };
