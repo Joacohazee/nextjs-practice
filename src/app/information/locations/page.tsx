@@ -3,7 +3,7 @@ import { getLocations } from "./services";
 import Navigator from "@/components/Navigator/Navigator";
 import { Routes } from "@/models";
 
-const fetchLocations = async () => await getLocations();
+const fetchLocations = () => getLocations();
 
 async function Locations() {
   const locations = await fetchLocations();

@@ -1,1 +1,1 @@
-export * from './falloutBoy.blur';
+export * from "./falloutBoy.blur";

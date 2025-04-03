@@ -10,7 +10,11 @@ function Navigator({ pathNames }: Props) {
   return (
     <div className={navigatorStyles.navigator}>
       {pathNames.map((pathName) => (
-        <Link className={navigatorStyles.navigatorLink} key={pathName.path} href={pathName.path}>
+        <Link
+          className={navigatorStyles.navigatorLink}
+          key={pathName.path}
+          href={pathName.path}
+        >
           {pathName.name}
         </Link>
       ))}

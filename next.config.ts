@@ -7,7 +7,9 @@ const nextConfig: NextConfig = {
     remotePatterns: [
       {
         hostname: "rickandmortyapi.com",
-      }]}
+      },
+    ],
+  },
 };
 
 export default nextConfig;
